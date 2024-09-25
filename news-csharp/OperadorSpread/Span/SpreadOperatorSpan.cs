@@ -5,7 +5,7 @@
         public void CombinarSpans()
         {
             Span<int> numerosSpan = [1, 2, 3];
-            Span<int> numerosCombinados = [0, .. numerosSpan, 4, 5];// 0, 1, 2, 3, 4, 5
+            Span<int> numerosCombinados = [0, .. numerosSpan, 4, 5]; // 0, 1, 2, 3, 4, 5
         }
 
         public ReadOnlySpan<char> CombinarReadonlySpans()
