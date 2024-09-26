@@ -1,7 +1,9 @@
 ﻿namespace news_csharp.PrimaryConstructor.Class
 {
-    public class Produto(string Nome, decimal Preco, int Quantidade)
+    public class Produto(string nome, decimal preco, int quantidade)
     {
-        //Inicializa as propriedades automaticamente
+        public string Nome { get; private set; } = nome;
+        public decimal Preco { get; private set; } = preco;
+        public int Quantidade { get; private set; } = quantidade;
     }
 }

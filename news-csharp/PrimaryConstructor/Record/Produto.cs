@@ -1,7 +1,9 @@
 ﻿namespace news_csharp.PrimaryConstructor.Record
 {
-    public record Pessoa(string Nome, int Idade)
+    public record Produto(string nome, decimal preco, int quantidade)
     {
-        // As propriedades Nome e Idade são automaticamente somente leitura
+        public string Nome { get; private set; } = nome;
+        public decimal Preco { get; private set; } = preco;
+        public int Quantidade { get; private set; } = quantidade;
     }
 }
