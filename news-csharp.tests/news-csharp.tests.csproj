@@ -23,10 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="AliasParaTipos\" />
-    <Folder Include="InitOnlySetters\" />
-    <Folder Include="NamespacesSemChaves\" />
-    <Folder Include="ParametrosOpcionaisLambda\" />
     <Folder Include="OperadorSpread\" />
   </ItemGroup>
 

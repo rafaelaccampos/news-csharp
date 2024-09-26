@@ -4,7 +4,7 @@
     using ListaInteiros = int[];
     using Inteiro = int?;
 
-    public class AliasService
+    public class Numero
     {
         public Altura RetornarAltura()
         {
@@ -16,7 +16,7 @@
             return [10, 20, 30, 40]; // Retorna um array de inteiros
         }
 
-        public Inteiro GetDatabaseIntValue()
+        public Inteiro RetornarInteiroNulavel()
         {
             return 100; // Retorna um valor inteiro nulável
         }
