@@ -1,1 +1,1 @@
-Esse repositório tem o objetivo de mostrar as principais atualizações do C#
+Esse repositório tem o objetivo de mostrar as principais atualizações do C#.
